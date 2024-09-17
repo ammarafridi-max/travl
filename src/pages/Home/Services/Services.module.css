@@ -1,0 +1,36 @@
+.section {
+  padding: 50px 0;
+}
+
+.servicesList {
+  display: flex;
+  gap: 10px;
+}
+
+.serviceCard {
+  width: 33% !important;
+  box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.03);
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+
+.serviceIcon {
+  height: 36px;
+}
+
+.serviceCard h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.serviceCard h3 a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.serviceCard p {
+  font-size: 13px;
+  color: rgb(150, 150, 150);
+}

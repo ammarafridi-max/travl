@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "name": "*",
+      "files": [
+        {
+          "name": "{name}.js",
+          "content": "import React from 'react';\nimport styles from './{name}.module.css';\n\nconst {name} = () => {\n  return (\n    <div className={styles.{name.toLowerCase()}}>\n      <h1>{name} Component</h1>\n    </div>\n  );\n};\n\nexport default {name};\n"
+        },
+        {
+          "name": "{name}.module.css",
+          "content": ".{name.toLowerCase()} {\n  font-family: Arial, sans-serif;\n}\n"
+        }
+      ]
+    }
+  ]
+}

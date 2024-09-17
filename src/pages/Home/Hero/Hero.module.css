@@ -1,0 +1,12 @@
+.section {
+  background: linear-gradient(
+    180deg,
+    rgba(243, 246, 253, 0.7) 0%,
+    rgba(243, 246, 253, 0) 86.26%
+  );
+  padding: 100px 0;
+}
+
+.text {
+  margin: 40px 0;
+}
